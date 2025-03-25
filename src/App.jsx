@@ -10,16 +10,17 @@ function App() {
 
   return (
     <>
-    
+    <div className=" border-box bg-[#121212]">
+
+
       <Routes>
         <Route path="/" element={<Home/>}>
           {/* <Navbar/> */}
           <Route path="/project-list" element={<ProjectList />} />
-          <Route path="project-show" element={<ProjectShowcase />} />
-        
+          <Route path="project-show" element={<ProjectShowcase />} />  
         </Route>
-      </Routes>
-   
+      </Routes>   
+      </div>
     </>
   )
 }
