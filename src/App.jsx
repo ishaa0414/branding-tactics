@@ -34,11 +34,17 @@ import Navbar from './Components/Navbar'
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+    <div className=" border-box bg-[#121212]">
+
+
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/CaseStudy" element={<CaseStudy />} />
-      </Routes>
+        <Route path="/" element={<Home/>}>
+          {/* <Navbar/> */}
+          <Route path="/project-list" element={<ProjectList />} />
+          <Route path="project-show" element={<ProjectShowcase />} />  
+        </Route>
+      </Routes>   
+      </div>
     </>
   )
 }

@@ -1,17 +1,18 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import LoaderHomePage from '../Components/LoaderHomePage'
-import BookCall from '../Components/BookCall'
+import VisionaryBrand from '../Components/VisionaryBrand'
 import BuildingBrandGrid from '../Components/BuildingBrandGrid'
+import ProjectHome from '../Components/ProjectHome'
+
 import FooterComponent from '../Components/Footer'
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>
-      <LoaderHomePage/>
-      <BookCall/>
+
+      
+      <VisionaryBrand/>
       <BuildingBrandGrid/>
+      <ProjectHome/>
       <FooterComponent/>
     </div>
   )

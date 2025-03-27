@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import logo from '../assets/icon.png'
+import BookCall from './BookCall';
 
 const LoaderHomePage = () => {
   const [counts, setCounts] = useState({
@@ -48,14 +49,15 @@ const LoaderHomePage = () => {
   }, [counts]);
   
   return (
-    <div className="w-full h-[calc(100vh-4rem)] flex bg-black">
+    <>
+    <div className="w-full  flex bg-[#121212] h-screen">
     
       <div className="w-1/2 h-full flex items-center justify-center">
        
         <img
           src={logo}
           alt="Branding Tactics Logo"
-          className="h-full w-full object-contain"
+          className=" w-full object-contain"
         />
       </div>
 
@@ -99,7 +101,10 @@ const LoaderHomePage = () => {
           Serious Branding for Serious Entrepreneurs
         </div>
       </div>
+    
     </div>
+    <BookCall/>
+    </>
   )
 }
 
