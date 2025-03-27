@@ -40,7 +40,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}>
           {/* <Navbar/> */}
-          <Route path="/project-list" element={<ProjectList />} />
+          {/* <Route path="/project-list" element={<ProjectList />} /> */}
           <Route path="project-show" element={<ProjectShowcase />} />  
         </Route>
       </Routes>   
