@@ -3,6 +3,8 @@ import VisionaryBrand from '../Components/VisionaryBrand'
 import BuildingBrandGrid from '../Components/BuildingBrandGrid'
 import ProjectHome from '../Components/ProjectHome'
 
+import FooterComponent from '../Components/Footer'
+
 const Home = () => {
   return (
     <div>
@@ -11,8 +13,8 @@ const Home = () => {
       <VisionaryBrand/>
       <BuildingBrandGrid/>
       <ProjectHome/>
+      <FooterComponent/>
     </div>
-    
   )
 }
 
